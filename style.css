@@ -232,7 +232,7 @@ section .title::after {
 }
 
 .about .title::after {
-    content: "quem sou eu";
+    content: "quem somos";
 }
 
 .about .about-content .left {
@@ -427,7 +427,7 @@ section .title::after {
 }
 
 .teams .title::after {
-    content: "Experiência";
+    content: "Nossa equipe";
 }
 
 .teams .carousel .card {
