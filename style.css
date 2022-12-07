@@ -90,7 +90,7 @@ section .title::after {
 
 .navbar.sticky {
     padding: 15px 0;
-    background: crimson;
+    background: #53664f;
 }
 
 .navbar .max-width {
@@ -175,7 +175,7 @@ section .title::after {
 
 .home {
     display: flex;
-    background: url("images/fundo.jpg") no-repeat center;
+    background: url("images/solid-color-image.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -233,6 +233,8 @@ section .title::after {
 
 .about .title::after {
     content: "quem somos";
+    color: #53664f;
+    background-color: #f8f9f0;
 }
 
 .about .about-content .left {
@@ -266,14 +268,14 @@ section .title::after {
 
 .about .about-content .right a {
     display: inline-block;
-    background: crimson;
+    background: #53664f;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #53664f;
     transition: all 0.3s ease;
 }
 
@@ -292,12 +294,14 @@ section .title::after {
 }
 
 .services .title::after, .teams .title::after {
-    background: #111;
+    background: #d3b094;
     content: "Tratamentos";
+    color: #53664f;
 }
 
 .skills .title::after {
     content: "fluxograma";
+    color: #53664f;
 }
 
 .skills .skills-content .column {
@@ -437,7 +441,7 @@ section .title::after {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid #53664f;
     transition: all 0.3s ease;
 }
 
@@ -472,7 +476,7 @@ section .title::after {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid #53664f;
     transition: all 0.3s ease;
 }
 
